@@ -1,36 +1,61 @@
-# About
-xPilot is a cross-platform X-Plane pilot client for VATSIM, supporting Windows, Linux and macOS.
+# xPilot-CPDLC
 
-# Download
-[![Release](https://img.shields.io/github/v/release/xpilot-project/xpilot?include_prereleases&style=for-the-badge)][1]
+> ❗ This is an **unofficial fork** of [xPilot](https://github.com/xpilot-project/xpilot), modified to include integrated **CPDLC support via the Hoppie ACARS network**.
 
-[1]: https://github.com/xpilot-project/xpilot/releases/latest
+This client is intended for use with X-Plane and VATSIM and builds upon the core functionality of xPilot with new features for data link messaging.
 
-# Resources
-:globe_with_meridians: [Documentation](https://docs.xpilot-project.org)
+---
 
-:wave: [Discord](https://vats.im/xpilot-discord)
+## ✈️ What’s New in This Fork
 
-# Contributing
-xPilot is written in C++ using the [Qt framework](https://www.qt.io/). Please read the [Contribution Guide](CONTRIBUTING.md) for details on how to contribute to the project.
+- ✅ Built-in Hoppie CPDLC integration
+- ✅ CPDLC message tab in UI
+- ✅ Support for uplink/downlink text messages
+- ✅ Internal logon to Hoppie using callsign/password
+- ✅ Experimental support for ATC messaging interaction
 
-If you enjoy using xPilot, please considering donating to support the future development of the project. Thank you for your support.
+---
 
-<a href="https://www.paypal.com/donate/?business=7MD45Q2CGTVDS&no_recurring=0&item_name=Thank+you+for+supporting+the+development+of+xPilot.&currency_code=USD"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"></a>
+## 📢 Disclaimer
 
-# Licensing
-xPilot is licensed under the [GPLv3 open-source license](LICENSE).
+This project is **not affiliated with, endorsed, or supported by** the official xPilot team, VATSIM, or Hoppie.  
+This is a **community-modified version** intended for experimental and educational purposes.
 
-# Acknowledgments
-* [Qt](https://www.qt.io) cross platform C++ development kit
-* [AFV-Native](https://github.com/xpilot-project/afv-native) cross platform Audio for VATSIM client implementation
-* [miniaudio](https://github.com/mackron/miniaudio) audio playback and capture library
-* [XPMP2](https://github.com/TwinFan/XPMP2) X-Plane multiplayer library
-* [MessagePack](https://msgpack.org/index.html) lightweight binary serialization format used for IPC messages
-* [nanomsg-NG](https://nng.nanomsg.org/) lightweight messaging library (used for IPC between xPilot and X-Plane)
-* [ImGui](https://github.com/ocornut/imgui) graphical user interface, used for the X-Plane plugin windows
-* Application icon created by [Freepik](https://www.flaticon.com/authors/freepik)
-* Cloud-based Mac hardware for testing and development sponsored by MacStadium
+Please use with caution on the live VATSIM network, and refer to their official policies.
 
-<a href="https://macstadium.com"><img src="https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png" width="250"></a>
+---
 
+## 🚀 Download
+
+🚧 Binaries are not yet provided. You must build from source (see instructions below).
+
+---
+
+## 🔧 Building from Source
+
+Instructions coming soon. For now, follow the original xPilot build process in [xPilot's README](https://github.com/xpilot-project/xpilot).
+
+---
+
+## 💬 Resources
+
+- [Hoppie ACARS Network](https://www.hoppie.nl)
+- [VATSIM](https://vatsim.net)
+- [xPilot Original Project](https://github.com/xpilot-project/xpilot)
+
+---
+
+## 👨‍💻 Credits
+
+This project is built on the work of the [xPilot team](https://github.com/xpilot-project/xpilot) and their contributors.
+
+Special thanks to:
+- xPilot developers
+- Hoppie network maintainers
+
+---
+
+## 📜 License
+
+This project is licensed under the [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).  
+All modifications in this fork are also licensed under the same terms.
